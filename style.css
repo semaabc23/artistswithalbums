@@ -1,0 +1,134 @@
+/* CSS files add styling rules to your content */
+
+body {
+font-family: 'Rajdhani', sans-serif;
+  margin: 10vh;
+}
+
+h1 {
+  display: flex;
+  font-style: italic;
+  color: white;
+  font-size: 10vmin;
+  justify-content: center;
+  margin-bottom: 1vh;
+}
+
+img {
+  width: 200px;
+  padding: 20px;
+}
+
+img:hover{
+  opacity: 0.5;
+}
+
+/* #help{
+  display:flex;
+  justify-content: flex-end;
+} */
+
+/* the following two items is in reference to W3 schools */
+ul {
+  list-style-type: none;
+  margin: 0vh;
+  padding: 0vh;
+  overflow: hidden;
+  background-color: #797d62;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  display:flex;
+  flex-wrap: nowrap;
+  font-size: 3vh;
+  margin: 0;
+}
+
+
+li a {
+  text-decoration: none;
+  padding: 1vw 3vh;
+  display: flex;
+  color: #f1dca7;
+
+}
+
+/* the following two items were in reference to W3 schools */
+
+li a:hover:not(.active) {
+  background-color: #f1dca7;
+  color: #9b9b7a;
+}
+
+:active {
+  background-color: #BB9457;
+}
+
+
+.pics {
+  width: 80%;
+  height: 70%;
+  filter: sepia(50%);
+  display: flex;
+  justify-content: center;
+}
+
+html{
+  background-color: #9b9b7a;
+  font-family: 'Fjalla One', sans-serif;
+  margin: 0;
+}
+
+h2{
+  color: white;
+  font-size: 3vmin;
+  font-size: 3vmax;
+}
+
+div p{
+  color: #6f4518;
+  font-size: 2vmin;
+  font-size: 2vmax;
+  font-style: normal;
+}
+
+
+:target{
+  border: 10px solid white;
+}
+
+div{
+  padding:20px;
+
+}
+
+p{
+  display: flex;
+  font-style: italic;
+  color: white;
+  font-size: 3vmin;
+  justify-content: center;
+}
+
+
+#harry{
+  background-color: #d9ae94;
+}
+
+#ajr{
+  background-color: #ffcb69;
+}
+
+#blackbear{
+  background-color: #6096ba;
+}
+
+#quinn{
+  background-color: #d08c60;
+}
+#bryce{
+  background-color: #f1dca7;
+}
